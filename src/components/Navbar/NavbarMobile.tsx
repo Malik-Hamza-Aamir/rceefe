@@ -1,15 +1,10 @@
 "use client";
-import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { NavBar } from "@/lib/types";
-
-import { Button } from "../ui/button";
 import {
     Sheet,
-    SheetClose,
     SheetContent,
     SheetDescription,
-    SheetFooter,
     SheetHeader,
     SheetTitle,
     SheetTrigger,
@@ -22,7 +17,6 @@ interface Props {
 }
 
 const NavbarMobile = ({ navlinks }: Props) => {
-    const [openNavbarMobile, setOpenNavbarMobile] = useState();
     const pathname = usePathname();
 
     return (

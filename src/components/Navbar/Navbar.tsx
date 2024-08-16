@@ -9,10 +9,8 @@ interface Props {
 const Navbar = ({ navlinks }: Props) => {
     return (
         <>
-            <div className="">
-                <NavbarWebApp navlinks={navlinks} />
-                <NavbarMobile navlinks={navlinks} />
-            </div>
+            <NavbarWebApp navlinks={navlinks} />
+            <NavbarMobile navlinks={navlinks} />
         </>
     )
 }
