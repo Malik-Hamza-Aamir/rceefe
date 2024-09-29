@@ -86,3 +86,27 @@
   background: rgba(0, 0, 0, 0.682);
   cursor: pointer;
 }
+
+
+tr th:first-child {
+  border-top-left-radius: 5px;
+  padding-left: 20px;
+}
+
+tr td:first-child {
+  padding-left: 20px;
+}
+
+tr th:last-child {
+  border-top-right-radius: 5px;
+}
+
+tr:last-of-type {
+  border-bottom: none !important;
+}
+
+tr td {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  /* padding: 10px 0px !important; */
+}

@@ -59,9 +59,9 @@ export default function RootLayout({
         }];
 
     return (
-        <div className="h-screen">
+        <div className="h-screen flex flex-col">
             <Navbar navlinks={navlinks} />
-            <div>{children}</div>
+            <div className="flex-1" >{children}</div>
         </div>
     );
 }
